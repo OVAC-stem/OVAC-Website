@@ -1,0 +1,23 @@
+@import url(style.css);
+
+.about h2{
+    margin-top: 30px;
+}
+.about .about-content{
+    display: flex;
+    flex-direction: column;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh; 
+}
+.team h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: -30px;
+    color: rgb(220, 233, 255);
+    font-family: "moto-verse";
+}
