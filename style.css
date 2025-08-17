@@ -181,7 +181,36 @@ section.hero {
   padding: 1%;
   border-radius: 5%;
 }
-.about-img{
+.img-div{
+  position: relative;
+}
+.about-img1{
+  z-index: 1;
+  position: relative;
+}
+/* ! This is the sowar fo2 ba3d lma tgyb elswar zabat el position  */
+.about-img2{
+  position: absolute;
+  top: 55%;
+  left: -5%;
+  bottom: 10%;
+  z-index: 2;
+  width: 350px;
+}
+.about-img3{
+  position: absolute;
+  top: 85%;
+  left: -10%;
+  bottom: 10%;
+  z-index: 3;
+  width: 250px;
+}
+/* ! This is the sowar fo2 ba3d lma tgyb elswar zabat el position  */
+
+
+.about-img1,
+.about-img2,
+.about-img3 {
   border-radius: 4%;
 }
 /*! End About  */
